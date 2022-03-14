@@ -1,0 +1,25 @@
+#If the player kills a player put here the quantity of earned coins
+Earned-Coins-Per-Kill: 100
+#If the player is killed put here the quantity of lost coins
+Lost-Coins-Per-Death: 50
+#XP Earned on kill
+XPEarned-OnKill: 25
+#XP Lost on death
+XPLost-OnDeath: 10
+
+#Customize here the killstreak rewards
+KS-3: 150
+KS-5: 300
+KS-10: 500
+KS-15: 700
+KS-20: 900
+KS-25: 1200
+KS-30: 1500
+KS-40: 2000
+KS-50: 3200
+KS-60: 4100
+KS-65: 5000
+KS-70: 5800
+KS-80: 6100
+KS-90: 6500
+KS-100: 8000

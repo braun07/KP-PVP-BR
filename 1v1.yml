@@ -1,0 +1,33 @@
+x1:
+  ability: 1v1
+  cooldown: 20
+  msg:
+    won: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce venceu a 1v1!'
+    lose: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce perdeu a 1v1!'
+    invite_cooldown: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fAguarde para desafiar!'
+    invite_accept: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fO Jogador $player$ aceitou seu pedido de 1v1!'
+    guest_accept: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce aceitou o pedido de $player$!'
+    invite: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce desafiou $player$ para um 1v1!'
+    guest: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce foi desafiado por $player$ para um 1v1!'
+    disconect: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fSeu oponente deslogou'
+    no_cmd: '&8(&4&lTSB&f&lPVP &f- &4&l1v1&8) &fVoce nao pode usar comandos na 1V1!'
+  coords:
+    spawn:
+      x: 281.4802509875642
+      y: 193.0
+      z: 1337.5287715025238
+      yaw: -0.23275757
+      pitch: -1.949968
+    loc_1:
+      x: 111.5
+      y: 184.0
+      z: 1198.5
+      yaw: 0.4674248
+      pitch: 3.2999816
+    loc_2:
+      x: 111.50074067419519
+      y: 184.0625
+      z: 1244.1317345493871
+      yaw: -179.8326
+      pitch: 1.3499552
+

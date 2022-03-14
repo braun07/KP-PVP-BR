@@ -1,0 +1,109 @@
+#In this file you can edit kits description and some kit abilities options!
+BasicLore: '&7Kit Basico e Padrao!'
+PvPLore: '&7Versao mais forte  do kit basico'
+KangarooLore: '&7De pulos duplos com seu firework!'
+ArcherLore: '&7Comece com arco e flecha!'
+TankLore: '&7Voce e forte porem e lento'
+SnailLore: '&7Tenha chance de dar lentidao'
+ViperLore: '&7Tenha chance de dar veneno'
+StomperLore: '&7Esmague seus inimigos'
+DeshfireLore: '&7De um boost e bote fogo!'
+CriticalLore: '&7De danos criticos'
+GladiatorLore: '&7Desafie alguen em sua arena de vidro'
+ThorLore: '&7Invoque raios e seja imune a eles!'
+DoubleJumpLore: '&7Presssione espaco para dar pulo duplo'
+BomberLore: '&7Jogue bombas nos inimigos'
+WaspLore: '&7Comece com blazerod sharp 8'
+AirmanLore: '&7Seja um aviador e voe!'
+SwitcherLore: '&7Troque de lugar com suas bolas de neve'
+NinjaLore: '&7Pressione shift para teleportar ao inimigo'
+CactusLore: '&7Ganhe armadura de espinhos!'
+PyroLore: '&7Receba espada e arcos flamejantes'
+JumperLore: '&7Comece com super pulo 4!'
+TimelordLore: '&7Pare o tempo com seu relogio'
+FishermanLore: '&7Fisgue jogadores!'
+SpidermanLore: '&7Escale paredes com sua espada'
+WarperLore: '&7Comece com 10 enderpearl!'
+VampireLore: '&7Tenha chance de ganhar regeneracao a cada hit'
+NarutoLore: '&7Seja o naruto e tenha a kyuubi'
+SonicLore: '&7De um boost e bote fogo!'
+PhantomLore: '&7Voe por 5 segundos!'
+CamelLore: '&7Ganhe vantagens em desertos'
+VikingLore: '&7Comece com um machado'
+PoseidonLore: '&7Ganhe vantagens em agua'
+ConfuserLore: '&7De confusao nos inimigos'
+ResouperLore: '&7Consiga sopas a cada kill!'
+AnchorLore: '&7Nao de nem receba knockback!'
+RyuLore: '&7Atire um hadouken!'
+MonkLore: '&7Troque o item do oponente'
+FiremanLore: '&7Nao receba dano de fogo ou lava'
+AjninLore: '&7Puxe o seu inimigo ate voce!'
+
+#Modify the cooldown of some kits
+#They are in seconds
+
+StomperCooldown: 30
+ThorCooldown: 5
+TimelordCooldown: 30
+PhantomCooldown: 25
+SonicCooldown: 30
+DeshfireCooldown: 30
+NarutoCooldown: 40
+RyuCooldown: 25
+NinjaCooldown: 10
+MonkCooldown: 25
+
+
+#Disable kits here
+
+GladiatorDisabled: false
+PhantomDisabled: false
+BomberDisabled: false
+DoubleJumpDisabled: false
+SpidermanDisabled: false
+AirmanDisabled: false
+StomperDisabled: false
+AnchorDisabled: false
+WarperDisabled: false
+KangarooDisabled: false
+
+#Edit some kits ability options
+#Edit the chance of the kit working on each hit (Viper , Snail, Vampire , Confuser)
+#And edit some other kit options
+#0 In the amplifier means that the effect is level 1
+
+ViperChance: 33
+SnailChance: 33
+VampireChance: 27
+ConfuserChance: 33
+KitCriticalChance: 10
+StomperRadius: 2
+RyuDamage: 14
+TimelordRadius: 5
+SonicDamage: 10
+DeshfireDamage: 10
+NarutoSpeedAmplifier: 1
+NarutoRegenAmplifier: 2
+NarutoRegenTime: 15
+NarutoSpeedTime: 15
+FiremanWeaknessonWaterTime: 3
+FiremanWeaknessonWaterAmplifier: 1
+FiremanRegenonLavaTime: 3
+FiremanRegenonLavaAmplifier: 1
+ViperPoisonTime: 6
+SnailSlownessTime: 6
+PoseidonStrenghtTime: 4
+PoseidonStrenghtAmplifier: 0
+PoseidonDamageResistanceTime: 8
+PoseidonDamageResistanceAmplifier: 0
+PoseidonSpeedTime: 8
+PoseidonSpeedAmplifier: 1
+CamelRegenTime: 4
+CamelSpeedTime: 4
+CamelRegenAmplifier: 0
+CamelSpeedAmplifier: 0
+CriticalExtraDamage: 4
+SonicPoisonTime: 6
+SonicPoisonAmplifier: 1
+#number of maximium blocks of distance that the player hitted must be to ninja work
+NinjaErrorBlockNumber: 120

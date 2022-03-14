@@ -1,0 +1,167 @@
+Prefix: '&8(&4&lTSB&f&lPVP&8) '
+bungeemode: true
+Permission: '&cVoce nao tem permissao.'
+Message:
+  Kit: '&aVoce escolheu o kit &8- &a%kit%!'
+  KitUse: '&cVoce ja escolheu um kit'
+  Clear: '&cVoce voltou ao spawn'
+  KitPvpJoin-Message: '&eYou join in the kitpvp'
+  KitPvpLeave-Message: '&eYou leave the kitpvp'
+  BlockedCMD-OnKitPvP: '&eThis command cannot be perfomed on kitpvp!'
+Discord: '&f&lhttps://discord.gg/5JyUxZM4nX'
+MotdLine1: '&4&lTSB&f&lPVP &f[1.8 - 1.16]'
+MotdLine2: '&fEstamos em fase de &6&l&nTESTES'
+JoinItem:
+  Lore: '&7Clique para abrir'
+  JoinSound: 'true'
+SidermanKit:
+  Name: '&aWall Climber &7(Right click)'
+  Lore: '&7(Right click) wall climber'
+AirmanKit:
+  Name: '&aFly &7(Right click)'
+  Lore: '&7(Right click) to fly'
+Title:
+  KitTitle: '&aKit Selecionado'
+  KitSubTitle: '&aKit &8- &a%kit% !'
+  DeathTitle: '&cVoce morreu'
+  DeathSubTitle: '&7Voce esta respawnando'
+  JoinTitle: '&4&lTSB &f&lPVP'
+  JoinSubTitle: '&f&lSE DIVIRTA MUITO!'
+  LeaveTitle: '&cYou leave the kitpvp!'
+  LeaveSubTitle: '&cTo join again use: /kitpvp join'
+  1v1Leave: '&aVoce saiu da 1v1'
+RespawnSound: true
+Sound:
+  Kit: ITEM_PICKUP
+  ShopMenu: CHEST_OPEN
+  KitUse: ENDERDRAGON_HIT
+  Soup: EAT
+  Fisherman: ENDERMAN_TELEPORT
+  Spiderman: SLIME_WALK
+  Respawn: LEVEL_UP
+  Join: LEVEL_UP
+  KitMenu: DOOR_CLOSE
+  SpongeUse: ENDERMAN_TELEPORT
+  BowlDrop: ITEM_PICKUP
+  ErrorMessage: ARROW_HIT
+  ItemDespawn: LAVA_POP
+  SucefullMessage: ORB_PICKUP
+  NoPermissionMessage: WITHER_SHOOT
+  SwitcherShoot: ENDERMAN_TELEPORT
+  Timelord: WITHER_SPAWN
+  Stomper: FIREWORK_BLAST
+  NarutoAbility: BLAZE_DEATH
+  CommandsSounds: BURP
+  ShopMenu-Click: LEVEL_UP
+  Streak: LEVEL_UP
+  Airman-Fly: ENDERMAN_SCREAM
+  DoubleJump-Ability: FIREWORK_BLAST2
+  StomperDamage: ANVIL_LAND
+  1v1: CLICK
+  ClickTest: CLICK
+  AnchorHit: ANVIL_BREAK
+  RyuAbility: EXPLODE
+  Respawning: CLICK
+  RespawnSucess: ORB_PICKUP
+EnableSoundsToAllCommands: true
+EnableCommandBlockingInKitPvP: true
+DisableHungerOnKitPvP: true
+DisableDropsOnKitPvP: true
+DisablePickupItemsOnKitPvP: true
+ClearItemsOnGround: true
+ClearInterval: 10
+
+#Change the sponge boost
+#Be careful when changing that number
+#It is the amplifier multiplier of sponge boost
+#too high numbers can throw you to minecraft space! 
+#Play around with that number to see what you want in sponge boost
+SpongeBoostAmplifier: 8
+
+Death:
+  Tell: Voce morreu para %player%! -50 moedas.
+Kill:
+  Tell: Voce matou %player%, +100 moedas.
+SendIPAddressData: true
+BLOCKED_COMMANDS:
+- /warp
+- /ewarp
+- /tpa
+- /etpa
+- /server
+- /sw
+- /skywars
+- /bw
+- /bedwars
+- /home
+- /ehome
+- /is
+- /island
+- /mines
+status:
+  seeligleo:
+    kills: 0
+    deaths: 0
+Spawn:
+  World: world
+  X: 986.5713186064881
+  Y: 163.0
+  Z: 762.4855777827968
+  Pitch: 2.100114
+  Yaw: 89.467766
+SpawnD:
+  World: world
+  X: 986.5713186064881
+  Y: 163.0
+  Z: 762.4855777827968
+  Pitch: 2.100114
+  Yaw: 89.467766
+FPS:
+  World: world
+  X: 376.52511904771427
+  Y: 53.0
+  Z: 563.3421920942925
+  Pitch: -0.75008
+  Yaw: -0.23389138
+CHALLENGE:
+  World: kitpvp
+  X: -210.50342885580588
+  Y: 180.0
+  Z: 194.4789980746758
+  Pitch: -2.4000573
+  Yaw: -178.4186
+arena1:
+  x: -66.10459814791216
+  y: 72.0
+  z: 78.45956056778283
+  pitch: 2.7001
+  yaw: 240.3663
+  world: world
+arena2:
+  x: -24.08261128684607
+  y: 70.0
+  z: -49.224403674862636
+  pitch: 2.700104
+  yaw: 31.8665
+  world: world
+arena3:
+  x: 105.73846787145067
+  y: 69.0
+  z: 24.612422139342634
+  pitch: -0.4499066
+  yaw: 48.51653
+  world: world
+arena4:
+  x: 53.051672416911444
+  y: 69.0
+  z: 54.87899580956933
+  pitch: -8.699904
+  yaw: 23.916498
+  world: world
+POT:
+  World: kitpvp
+  X: -450.4860144944244
+  Y: 85.75795556372269
+  Z: 248.50927906601248
+  Pitch: 0.7500277
+  Yaw: 179.56729

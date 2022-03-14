@@ -1,0 +1,241 @@
+name: KP-PVP
+main: me.RafaelAulerDeMeloAraujo.main.Main
+version: BR
+author: zEnderX5_ , Rafael Auler
+softdepend: [PlaceholderAPI , MVdWPlaceholderAPI]
+description: KitPvP Plugin what have much features like kits,shop with Custom Economy Support,A Unique 1v1 system to players fight,Coins System,Scoreboard,Stats kills,deaths,streak,Sponges acts like launchpads,Varius commands, and are very customisable,Support with others Gamemodes like Skywars and have everything to control your KITPVP Server. And the best part its is free to Download. If you want to support the developer subscribe to his channel.
+website: http://bit.ly/2kC345B , http://bit.ly/2j5qvnM
+#PERMISSIONS ARENT HERE
+#SEE ALL PERMISSIONS HERE: https://pastebin.com/JuMPHpRD
+commands:
+   kitpvp:
+        description: Main Command
+   kp:
+        description: Main Command
+   build:
+        description: Enables or Disables Build on kitpvp
+   setpotpvp:
+        description: setar pot
+   tell:
+        description: Tell
+   gm:
+        description: Gamemode
+   tag:
+        description: Troca de tag
+   gamemode:
+        description: Gamemode
+   kpkickall:
+        description: Force all players to leave the kitpvp     
+   set1v1:
+        description: Set the kitpvp 1vs1  
+   evento:
+        description: Sistema de Evento
+   setevento:
+        description: Setar evento
+   regras:
+        description: Regras
+   crash:
+        description: Crash
+   kpsetdeathspawn:
+        description: Sets the kitpvp death spawn
+   setspawn:
+        description: Set the kitpvp spawn
+   kpwarps:
+        description: kitpvp warp
+   setfps:
+        description: Set the kitpvp fps
+   ss:
+        description: SS
+   setknock:
+        description: Set KB
+   sudo:
+        description: Sudo
+   consolesudo:
+        description: Console Sudo
+   spawn:
+        description: VA PARA O SPAWN
+   setchallenge:
+        description: Set the kitpvp challenge
+   setarena:
+        description: Set the kitpvp arena
+   kpkills:
+        description: Manage player kills 
+   kpjoinwarps:
+        description: Warp      
+   skit:   
+        description: Create a kit with items to give to your players             
+   kpvp:
+        description: Kit PvP
+   sc:
+        description: SC
+   report:
+        description: Report
+   puxarrdm:
+   kfireman:
+        description: Kit Fireman
+   kmonk:
+        description: Kit Monk
+   kphantom:
+        description: Kit Phantom
+   kanchor:
+        description: Kit Anchor
+   chat:
+        description: LIMPAR/ATIVA/DESATIVA O CHAT
+   tpall:
+        description: STAFFCHAT
+   invsee:
+        description: STAFFCHAT
+   tp:
+        description: TELEPORTE
+   requisitos:
+        description: REQ
+   youtuber:
+        description: REQ
+   fly:
+        description: FLY
+   aviso:
+        description: AVISO
+   ranks:
+        description: RANKS
+   ping:
+        description: PING
+   ajnin:
+        description: Kit Ajnin
+   discord:
+        description: Dc
+   togglepvp:
+        description: TOGGLEPVP
+   head:
+        description: HEAD
+   s:
+        description: STAFFCHAT
+   kviking:
+        description: Kit Viking
+   kposeidon:
+        description: Kit Poseidon
+   kconfuser:
+        description: Kit Confuser
+   kresouper:
+        description: Kit Resouper
+   sonic:
+        description: Kit Sonic
+   kryu:
+        description: Kit Ryu    
+   kresouper:
+        description: Kit Resouper
+   viper:
+        description: Kit Viper to poison your enemies
+   naruto:
+        description: Kit Naruto from anime - Naruto
+   gaara:
+        description: Kit Gaara from anime - Naruto
+   kcamel:
+        description: Kit Camel       
+   kpkitmenu:
+        description: Original command to open the new kit menu
+   kthor:
+        description: Kit Thor to striking
+   gladiator:
+        description: My favorite kit from this plugin    
+   basic:
+        description: A Weaker version of the kit PvP
+   archer:
+        description: Kit Archer to shot arrow in your enemies
+   pyro:
+        description: Kit Pyro
+   doublejump:
+        description: Kit Doublejump
+   tank:
+        description: Kit Tank
+   switcher:
+        description: Kit Switcher
+   tiggertoo:
+        description: Kit Tigertoo
+   freezer:
+        description: Kit Freezer
+   timelord:
+        description: Kit Timelord to freeze players
+   jumper:
+        description: Kit Jumper
+   cactus:
+        description: Kit Cactus
+   bomber:
+        description: Kit Bomber
+   warper:
+        description: Kit Warper
+   wasp:
+        description: Kit Wasp
+   spiderman:
+        description: Kit Spiderman
+   airman:
+        description: Kit Airman
+   fisherman:
+        description: Kit Fisherman
+   kangaroo:
+        description: Kit Kangaroo
+   snail:
+        description: Kit Snail    
+   kitreload:
+        description: Reload the configuration file
+   kpstats:
+        description: Display your statistics
+   stats:
+        description: Display your statistics
+   kpkit:
+        description: Open the kit menu
+   kitmenu:
+        description: Open the kit menu
+   kpkits:
+        description: Open the kit menu
+   kitcredits:
+        description: Display the credits and plugin info
+   dev:
+        description: Display the credits and plugin info
+   stomper:
+        description: Kit Stomper
+   ninja:
+        description: Kit Ninja
+   critical:
+        description: Kit Critical
+   kvampire:
+        description: Kit Vampire       
+   deshfire:
+        description: Kit Deshfire     
+   shopmenu:
+        description: Open the shop menu
+   kploja:
+        description: Open the shop menu
+   kpshop:
+        description: Open the Shop menu
+   givecoins:
+        description: Manage the coins system
+   removecoins:
+        description: Manage the coins system
+   coins:
+        description: View your coins             
+   admin:
+        description: Enter in adminmode to catch cheaters
+   kphelp:
+        description: Display command help menu
+  
+   kitclear:
+        description: Clears yours kit 
+  
+        
+         
+                 
+  
+   
+   
+      
+
+     
+       
+          
+   
+   
+
+
+  
+   
+   
