@@ -100,22 +100,18 @@ if (Cooldown.add(p)) {
 /*  89 */       LeatherArmorMeta kCapacete = (LeatherArmorMeta)Capacete.getItemMeta();
 /*  90 */       kCapacete.setColor(Color.BLUE);
 /*  91 */       Capacete.setItemMeta(kCapacete);
-/*  92 */       Capacete.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /*  93 */       ItemStack Peitoral = new ItemStack(Material.LEATHER_CHESTPLATE);
 /*  94 */       LeatherArmorMeta kPeitoral = (LeatherArmorMeta)Peitoral.getItemMeta();
 /*  95 */       kPeitoral.setColor(Color.BLUE);
 /*  96 */       Peitoral.setItemMeta(kPeitoral);
-/*  97 */       Peitoral.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /*  98 */       ItemStack Calss = new ItemStack(Material.LEATHER_LEGGINGS);
 /*  99 */       LeatherArmorMeta kCalss = (LeatherArmorMeta)Calss.getItemMeta();
 /* 100 */       kCalss.setColor(Color.BLUE);
 /* 101 */       Calss.setItemMeta(kCalss);
-/* 102 */       Calss.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /* 103 */       ItemStack Bota = new ItemStack(Material.LEATHER_BOOTS);
 /* 104 */       LeatherArmorMeta kBota = (LeatherArmorMeta)Capacete.getItemMeta();
 /* 105 */       kBota.setColor(Color.BLUE);
 /* 106 */       Bota.setItemMeta(kBota);
-/* 107 */       Bota.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /* 108 */       Armadura.put(p.getName(), p.getInventory().getArmorContents());
 /*     */       
 /* 110 */       p.getInventory().setHelmet(Capacete);
@@ -179,18 +175,6 @@ ItemStack esp = new ItemStack(Material.LAPIS_BLOCK);
 /* 52 */      esp.setItemMeta(esp1);
 /*    */       
 /*    */ 
-/* 55 */       ItemStack capacete0 = new ItemStack(Material.IRON_HELMET);
-/*    */       
-/* 57 */       ItemStack peitoral0 = new ItemStack(Material.IRON_CHESTPLATE);
-/*    */       
-/* 59 */       ItemStack calca0 = new ItemStack(Material.IRON_LEGGINGS);
-/*    */       
-/* 61 */       ItemStack Bota0 = new ItemStack(Material.IRON_BOOTS);
-/*    */       
-/* 63 */       p.getInventory().setHelmet(capacete0);
-/* 64 */       p.getInventory().setChestplate(peitoral0);
-/* 65 */       p.getInventory().setLeggings(calca0);
-/* 66 */       p.getInventory().setBoots(Bota0);
 /* 67 */       Habilidade.setAbility(p, "Sonic");
 /* 68 */       p.sendMessage(String.valueOf(Main.getInstace().getConfig().getString("Prefix").replace("&", "§")) + Main.getInstace().getConfig().getString("Message.Kit").replaceAll("%kit%", "Sonic").replace("&", "§"));
 /*    */       

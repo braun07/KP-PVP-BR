@@ -53,7 +53,7 @@
 /* 53 */       p.getInventory().clear();
 /* 54 */       Habilidade.setAbility(p, "Deshfire");
 /*    */       
-/* 56 */       ItemStack dima = new ItemStack(Material.DIAMOND_SWORD);
+/* 56 */       ItemStack dima = new ItemStack(Material.STONE_SWORD);
 /* 57 */       ItemMeta souperaa = dima.getItemMeta();
 /* 58 */       souperaa.setDisplayName("§cEspada");
 /* 59 */       dima.setItemMeta(souperaa);

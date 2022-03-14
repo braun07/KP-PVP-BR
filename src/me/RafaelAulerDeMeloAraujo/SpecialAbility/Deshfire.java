@@ -93,22 +93,18 @@ if (Cooldown.add(p)) {
 /*  89 */       LeatherArmorMeta kCapacete = (LeatherArmorMeta)Capacete.getItemMeta();
 /*  90 */       kCapacete.setColor(Color.RED);
 /*  91 */       Capacete.setItemMeta(kCapacete);
-/*  92 */       Capacete.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /*  93 */       ItemStack Peitoral = new ItemStack(Material.LEATHER_CHESTPLATE);
 /*  94 */       LeatherArmorMeta kPeitoral = (LeatherArmorMeta)Peitoral.getItemMeta();
 /*  95 */       kPeitoral.setColor(Color.RED);
 /*  96 */       Peitoral.setItemMeta(kPeitoral);
-/*  97 */       Peitoral.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /*  98 */       ItemStack Calss = new ItemStack(Material.LEATHER_LEGGINGS);
 /*  99 */       LeatherArmorMeta kCalss = (LeatherArmorMeta)Calss.getItemMeta();
 /* 100 */       kCalss.setColor(Color.RED);
 /* 101 */       Calss.setItemMeta(kCalss);
-/* 102 */       Calss.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /* 103 */       ItemStack Bota = new ItemStack(Material.LEATHER_BOOTS);
 /* 104 */       LeatherArmorMeta kBota = (LeatherArmorMeta)Capacete.getItemMeta();
 /* 105 */       kBota.setColor(Color.RED);
 /* 106 */       Bota.setItemMeta(kBota);
-/* 107 */       Bota.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 /* 108 */       Armadura.put(p.getName(), p.getInventory().getArmorContents());
 /*     */       
 /* 110 */       p.getInventory().setHelmet(Capacete);

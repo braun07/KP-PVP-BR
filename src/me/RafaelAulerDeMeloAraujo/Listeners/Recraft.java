@@ -53,17 +53,17 @@ package me.RafaelAulerDeMeloAraujo.Listeners;
 	    
 	    ItemStack sopas = new ItemStack(Material.BOWL, 64);
 	    ItemMeta ksopas = sopas.getItemMeta();
-	    ksopas.setDisplayName("§4Pote");
+	    ksopas.setDisplayName("§7Pote");
 	    sopas.setItemMeta(ksopas);
 	    
 	    ItemStack cogur = new ItemStack(Material.RED_MUSHROOM, 64);
 	    ItemMeta kcogur = cogur.getItemMeta();
-	    kcogur.setDisplayName("§3--> §cVermelho §3<--");
+	    kcogur.setDisplayName("§cCogumelo Vermelho");
 	    cogur.setItemMeta(kcogur);
 	    
 	    ItemStack cogum = new ItemStack(Material.BROWN_MUSHROOM, 64);
 	    ItemMeta kcogum = cogum.getItemMeta();
-	    kcogum.setDisplayName("§3--> §8Marrom §3<--");
+	    kcogum.setDisplayName("§8Cogumelo Marrom");
 	    cogum.setItemMeta(kcogum);
 	    
 	    Inventory inve = Bukkit.getServer().createInventory(p, 36, "§bRecraft");

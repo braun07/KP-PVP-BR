@@ -54,7 +54,6 @@ for (Player all : Bukkit.getOnlinePlayers()) {
 /* 46 */       ItemMeta souperaa = dima.getItemMeta();
 /* 47 */       souperaa.setDisplayName("§cEspada");
 /* 48 */       dima.setItemMeta(souperaa);
-               dima.addEnchantment(Enchantment.DAMAGE_ALL, 1);
 /* 49 */       ItemStack sopa = new ItemStack(Material.MUSHROOM_SOUP);
 /* 50 */       ItemMeta sopas = sopa.getItemMeta();
 /* 51 */       sopas.setDisplayName("§6Sopa");

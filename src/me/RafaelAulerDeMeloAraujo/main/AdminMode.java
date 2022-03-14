@@ -155,7 +155,7 @@ import me.RafaelAulerDeMeloAraujo.ScoreboardManager.Streak;
 /*     */           {
 /* 165 */             p.chat("/admin");
 /*     */           }
-/* 167 */         }, 10L);
+/* 167 */         }, 4L);
 /*     */       }
 /*     */     }
 /*     */   }

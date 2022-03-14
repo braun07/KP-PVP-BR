@@ -81,20 +81,20 @@ public class Ajnin
         {
           Location loc = p.getLocation();      
           t.teleport(loc);
-          p.sendMessage("§4§lAJNIN: §fVoce puxou " + t.getName() + " §fatÃ© vocÃª!");
-          t.sendMessage("§4§lAJNIN: §f" + p.getName() + " puxou vocÃª com o kit AJNIN!");
+          p.sendMessage("§4§lAJNIN: §fVoce puxou " + t.getName() + " ate voce!");
+          t.sendMessage("§4§lAJNIN: §f" + p.getName() + " puxou voce com o kit AJNIN!");
           Cooldown.add(p, 25);
           Bukkit.getScheduler().scheduleSyncDelayedTask(Main.getInstace(), new Runnable()
           {
             public void run()
             {
-              p.sendMessage("§2§lCOOLDOWN Â§aO seu Cooldown acabou");
+              p.sendMessage("§2§lCOOLDOWN &fO seu Cooldown acabou");
             }
           }, 500L);
         }
         else
         {
-          p.sendMessage("§4§lAJNIN Â§fO ultimo jogador hitado estÃ¡ a mais de 50 blocos de distÃ¢ncia!");
+          p.sendMessage("§4§lAJNIN §fO ultimo jogador hitado esta a mais de 50 blocos de distancia!");
         }
       }
     }

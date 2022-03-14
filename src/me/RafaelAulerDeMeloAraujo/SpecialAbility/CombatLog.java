@@ -42,15 +42,15 @@ public class CombatLog implements Listener
             if (Habilidade.getAbility(p) != "None" && Habilidade.getAbility(hitter) != "None" && !CombatLog.emcombate.containsKey(p) && !CombatLog.emcombate.containsKey(hitter)) {
                 CombatLog.emcombate.put(p, hitter);
                 CombatLog.emcombate.put(hitter, p);
-                hitter.sendMessage("§8(§4§lTSB§f§lPVP§8)§7Voce esta em combate com §c" + p.getDisplayName());
-                p.sendMessage("§8(§4§lTSB§f§lPVP§8)§7Voce esta em combate com §c" + hitter.getDisplayName());
+                hitter.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce esta em combate com §c" + p.getDisplayName());
+                p.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce esta em combate com §c" + hitter.getDisplayName());
                 Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin)Main.instance, (Runnable)new Runnable() {
                     @Override
                     public void run() {
                         CombatLog.emcombate.remove(p);
                         CombatLog.emcombate.remove(hitter);
                         hitter.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce agora esta fora de combate");
-                        p.sendMessage("§8(§4§lTSB§f§lPVP§8)§7Voce agora esta fora de combate");
+                        p.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce agora esta fora de combate");
                     }
                 }, 140L);
             }
@@ -63,7 +63,7 @@ public class CombatLog implements Listener
         if (CombatLog.emcombate.containsKey(p.getName())) {
             final Player t = CombatLog.emcombate.get(p.getName());
             p.teleport(p.getWorld().getSpawnLocation());
-            t.sendMessage("§8(§4§lTSB§f§lPVP§8)§7Voce esta fora de combate");
+            t.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce esta fora de combate");
             CombatLog.emcombate.remove(p);
             CombatLog.emcombate.remove(t);
         }
@@ -80,7 +80,7 @@ public class CombatLog implements Listener
             CombatLog.emcombate.remove(t);
             Bukkit.broadcastMessage(API.NomeServer + "§c " + p.getName() + "§7 Deslogou No Meio do PvP e perdeu 300 coins!");
             Coins.removeCoins(t.getName(), 300);
-            t.sendMessage("§8(§4§lTSB§f§lPVP§8 §7Voce esta fora de combate");
+            t.sendMessage("§8(§4§lTSB§f§lPVP§8) §7Voce esta fora de combate");
         }
     }
     

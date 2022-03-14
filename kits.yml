@@ -46,9 +46,9 @@ StomperCooldown: 30
 ThorCooldown: 5
 TimelordCooldown: 30
 PhantomCooldown: 25
-SonicCooldown: 30
-DeshfireCooldown: 30
-NarutoCooldown: 40
+SonicCooldown: 20
+DeshfireCooldown: 20
+NarutoCooldown: 35
 RyuCooldown: 25
 NinjaCooldown: 10
 MonkCooldown: 25
@@ -78,7 +78,7 @@ VampireChance: 27
 ConfuserChance: 33
 KitCriticalChance: 10
 StomperRadius: 2
-RyuDamage: 14
+RyuDamage: 10
 TimelordRadius: 5
 SonicDamage: 10
 DeshfireDamage: 10

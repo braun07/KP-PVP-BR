@@ -200,7 +200,7 @@ Main.give(p);
 /* 133 */       for (PotionEffect effect : s.getActivePotionEffects()) {
 /* 134 */         s.removePotionEffect(effect.getType());
 /*     */       }
-/* 136 */       ItemStack sword = new ItemStack(Material.STONE_AXE);
+/* 136 */       ItemStack sword = new ItemStack(Material.WOOD_AXE);
 /* 137 */       sword.addEnchantment(Enchantment.DAMAGE_ALL, 1);
 /* 144 */       Habilidade.setAbility(s, "Viking");
 /*     */       
@@ -320,9 +320,7 @@ RTP.TeleportArenaRandom(p);
 /*     */       }
 /* 279 */       ItemStack sword2 = new ItemStack(Material.STONE_SWORD);
 /* 280 */       ItemStack flecha = new ItemStack(Material.ARROW);
-/* 281 */       sword2.addEnchantment(Enchantment.KNOCKBACK, 1);
 /* 283 */       Object bow = new ItemStack(Material.BOW);
-/* 284 */       ((ItemStack)bow).addEnchantment(Enchantment.ARROW_DAMAGE, 1);
 /* 285 */       ((ItemStack)bow).addEnchantment(Enchantment.ARROW_INFINITE, 1);
 /* 287 */       s.getInventory().addItem(new ItemStack[] { sword2 });
 /* 288 */       s.getInventory().addItem(new ItemStack[] { (ItemStack)bow });
@@ -570,7 +568,7 @@ Main.give(p);
 /* 606 */         s.removePotionEffect(effect.getType());
 /*     */       }
 /* 608 */       ItemStack sword7 = new ItemStack(Material.BLAZE_ROD);
-/* 609 */       sword7.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 5);
+/* 609 */       sword7.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 3);
 /* 610 */       s.getInventory().addItem(new ItemStack[] { sword7 });
 /* 611 */       for (int i = 0; i <= 34; i++) {
 /* 612 */         s.getInventory().addItem(new ItemStack[] { sopa });
