@@ -538,7 +538,6 @@ if (Main.kits.getBoolean("BomberDisabled")) {
 /*     */       }
 TitleAPI.sendTitle(p, Integer.valueOf(5), Integer.valueOf(20), Integer.valueOf(5), this.main.getConfig().getString("Title.KitTitle"), this.main.getConfig().getString("Title.KitSubTitle").replace("%kit%", "Bomber"));
 /* 579 */       Habilidade.setAbility(s, "Bomber");
-/* 580 */       s.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 999999999, 1));
 /* 581 */       s.playSound(s.getLocation(), Sound.valueOf(this.main.getConfig().getString("Sound.Kit")), 1.0F, 1.0F);
 /*     */       RTP.TeleportArenaRandom(p);
 Main.give(p);

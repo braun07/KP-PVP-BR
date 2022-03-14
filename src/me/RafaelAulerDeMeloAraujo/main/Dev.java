@@ -28,6 +28,7 @@
 	/* 29 */       sender.sendMessage("§6\u279C §cVersao: §e" + Main.getInstance().getDescription().getVersion());
 	/* 30 */       sender.sendMessage("§6\u279C §cAutor 1: §ezEnderX5_ , Rafael Auler ");
 				   sender.sendMessage("§6\u279C §cAutor 2: §eSeeligLeo , Leonardo Seelig Junior");
+				   sender.sendMessage("§6\u279C §cAutor 3: §e7Braun , Joao Vitor Braun");
 	/* 31 */       sender.sendMessage("§6\u279C §cYoutube: http://bit.ly/2kC345B");
 	/* 32 */       sender.sendMessage("§6\u279C §cSpigot: http://bit.ly/2j5qvnM");
 	/* 33 */       sender.sendMessage("§6\u279C §cPagina: http://bit.ly/2BZCtLE");
