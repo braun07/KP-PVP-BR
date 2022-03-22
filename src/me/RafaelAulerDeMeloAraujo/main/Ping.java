@@ -46,7 +46,7 @@ public class Ping
             }
           }
         }
-        sender.sendMessage("§8(§4§lTSB§f§lPVP§8) §fO ping de " + p.getName() + " Ã© de: " + ChatColor.RED + ping + "ms");
+        sender.sendMessage("§8(§4§lTSB§f§lPVP§8) §fO ping de " + p.getName() + " e de: " + ChatColor.RED + ping + "ms");
       }
       else
       {

@@ -52,7 +52,7 @@ import me.RafaelAulerDeMeloAraujo.ScoreboardManager.Streak;
 /*     */     }
 /*  53 */     Player p = (Player)sender;
 /*  54 */     if (!sender.hasPermission("kitpvp.adminmode")) {
-/*  55 */       sender.sendMessage("ß8(ß4ßlTSBßfßlPVPß8) ßfVoce nao tem permiss√£o para executar esse comando");
+/*  55 */       sender.sendMessage("ß8(ß4ßlTSBßfßlPVPß8) ßfVoce nao tem permissao para executar esse comando");
 /*  56 */       p.playSound(p.getLocation(), org.bukkit.Sound.valueOf(this.main.getConfig().getString("Sound.NoPermissionMessage")), 1.0F, 1.0F);
 /*  57 */       return true;
 /*     */     }
@@ -117,7 +117,7 @@ import me.RafaelAulerDeMeloAraujo.ScoreboardManager.Streak;
 /* 126 */             s.showPlayer(p);
 /*     */           }
 /*     */         }
-/* 129 */         p.setGameMode(GameMode.SURVIVAL);
+/* 129 */         p.setGameMode(GameMode.ADVENTURE);
 /* 130 */         p.getInventory().setContents((ItemStack[])saveinv.get(p.getName()));
 /* 131 */         p.getInventory().setArmorContents((ItemStack[])savearmor.get(p.getName()));
 /*     */       }
@@ -198,7 +198,7 @@ import me.RafaelAulerDeMeloAraujo.ScoreboardManager.Streak;
                 p.sendMessage("ßeStreak: ßcßl" + Streak.killstreak.get(p1.getName()));
 /* 208 */       p.sendMessage("ßeKit: ßcßl" + Habilidade.getAbility(p1));
 /* 209 */       p.sendMessage("ßeEsta de /fly? ßcßl" + p1.isFlying());
-/* 213 */       p.sendMessage("ßeIp: ßcßl" + p1.getAddress().getHostName());
+/* 213 */       p.sendMessage("ßeIP: ßcßl" + p1.getAddress().getHostName());
 /*     */     }
 /*     */   }
 /*     */   

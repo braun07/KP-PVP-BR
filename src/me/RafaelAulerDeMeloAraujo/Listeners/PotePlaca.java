@@ -34,8 +34,8 @@ public class PotePlaca
     if (e.getLine(0).equalsIgnoreCase("potion"))
     {
       e.setLine(0, "§4§l-=-= (!) =-=-");
-      e.setLine(1, "§1§lKITPVP");
-      e.setLine(2, "§6§lPOTION");
+      e.setLine(1, "§1§lPOTION");
+      e.setLine(2, "§6§lGRATIS");
       e.setLine(3, "§4§l-=-= (!) =-=-");
     }
   }
@@ -94,8 +94,8 @@ public class PotePlaca
       Sign s = (Sign)e.getClickedBlock().getState();
       String[] lines = s.getLines();
       if ((lines.length > 0) && (lines[0].equals("§4§l-=-= (!) =-=-")) && 
-        (lines.length > 1) && (lines[1].equals("§1§lKITPVP")) && 
-        (lines.length > 2) && (lines[2].equals("§6§lPOTION")) && 
+        (lines.length > 1) && (lines[1].equals("§1§lPOTION")) && 
+        (lines.length > 2) && (lines[2].equals("§6§lGRATIS")) && 
         (lines.length > 3) && (lines[3].equals("§4§l-=-= (!) =-=-"))) {
         p.openInventory(inve);
       }

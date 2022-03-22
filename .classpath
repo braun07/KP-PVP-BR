@@ -6,8 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Braun/Desktop/PlaceholderAPI-2.10.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Braun/Desktop/paper_1.8.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Braun/Desktop/NametagEdit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Seelig Leo/OneDrive - Seprol/Área de Trabalho/The South Boys Server/Server 2/plugins/PlaceholderAPI-2.10.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Seelig Leo/OneDrive - Seprol/Área de Trabalho/The South Boys Server/Server 2/paper_1.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Seelig Leo/OneDrive - Seprol/Área de Trabalho/The South Boys Server/Server 2/plugins/NametagEdit.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

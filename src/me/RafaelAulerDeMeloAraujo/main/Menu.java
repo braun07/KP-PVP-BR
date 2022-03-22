@@ -196,7 +196,7 @@ if (!Join.game.contains(p.getName())) {
 	p.getInventory().setItem(4, kits1);
 	p.getInventory().setItem(6, kits);
 	p.getInventory().setItem(2, st);      
-	p.setGameMode(GameMode.SURVIVAL);
+	p.setGameMode(GameMode.ADVENTURE);
 	p.updateInventory();
 	e.setJoinMessage(null);  
 	/*     */ 

@@ -133,7 +133,7 @@ import me.RafaelAulerDeMeloAraujo.X1.X1;
 		          p.setAllowFlight(false);
 		          API.tirarEfeitos(p);
 		          p.updateInventory();
-		          p.sendMessage("" + ChatColor.YELLOW + "Você respawnou!");
+		          p.sendMessage("§8(§4§lTSB§f§lPVP§8)" + ChatColor.WHITE + " Você respawnou!");
 		          p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 30, 0));
 		          p.playSound(p.getLocation(), Sound.valueOf(Main.getInstance().getConfig().getString("Sound.RespawnSucess")), 3.0F, 3.0F);
 		          p.setGameMode(GameMode.ADVENTURE);

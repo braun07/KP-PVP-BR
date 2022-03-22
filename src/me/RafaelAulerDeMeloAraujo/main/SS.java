@@ -35,14 +35,14 @@ public class SS
       {
         if (args.length == 0)
         {
-          p.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8)") + "§c Sintaxe correta: /ss (nome)");
+          p.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8)") + "§c Utilize: /ss (nome)");
         }
         else
         {
           Player t = Bukkit.getPlayer(args[0]);
           if (t == null)
           {
-            p.sendMessage("§8(§4§lTSB§f§lPVP§8) §fEsse jogador est§ offline");
+            p.sendMessage("§8(§4§lTSB§f§lPVP§8) §fO jogador esta offline");
             return true;
           }
           if (!congelado.contains(t))
@@ -51,7 +51,7 @@ public class SS
             t.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8) ") + "§7Você foi puxado para uma SS por: §f" + p.getDisplayName());
             t.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8) ") + "§7Siga as instruçoes do staffer e passe o AnyDesk");
             TitleAPI.sendTitle(t, Integer.valueOf(10), Integer.valueOf(6000), Integer.valueOf(10), "§cVoce esta em SS");
-            p.sendMessage(String.valueOf("§b§lKITPVP") + "§7Você colocou: §c" + t.getDisplayName() + " em SS");
+            p.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8) ") + "§fVocê colocou: §c" + t.getDisplayName() + " §fem §c§lSS");
             World w = Bukkit.getServer().getWorld(Main.plugin.getConfig().getString("SS.World"));
             double x = Main.plugin.getConfig().getDouble("SS.X");
             double y = Main.plugin.getConfig().getDouble("SS.Y");
@@ -61,7 +61,7 @@ public class SS
             lobby.setYaw((float)Main.plugin.getConfig().getDouble("SS.Yaw"));
             t.teleport(lobby);
             p.teleport(t.getLocation());
-            Bukkit.broadcast(ChatColor.RED + t.getName() + " foi colocado na SS pelo staff " + p.getName(), "kitpvp.staff");
+            Bukkit.broadcast("§8(§4§lTSB§f§lPVP§8) §c" + t.getName() + " §ffoi colocado na SS pelo staff: §4§l" + p.getName(), "kitpvp.staff");
           }
           else
           {
@@ -86,7 +86,7 @@ public class SS
     if (congelado.contains(p))
     {
       congelado.remove(p);
-      Bukkit.broadcast(ChatColor.RED + p.getName() + " deslogou enquanto em SS", "kitpvp.staff");
+      Bukkit.broadcast("§8(§4§lTSB§f§lPVP§8) " + p.getName() + " §fdeslogou enquanto em §c§lSS", "kitpvp.staff");
       TitleAPI.clearTitle(p);
     }
   }
@@ -100,7 +100,7 @@ public class SS
     if ((congelado.contains(p)) && (!e.getMessage().startsWith("/tell")))
     {
       e.setCancelled(true);
-      p.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8) ") + "§cVocê nao pode digitar comando quando estiver em SS");
+      p.sendMessage(String.valueOf("§8(§4§lTSB§f§lPVP§8) ") + "§cVocê nao pode digitar comando quando estiver em §4§lSS");
     }
   }
 }
