@@ -43,7 +43,7 @@ public class Medio
     {
       e.setLine(0, "§4§l-=-= (!) =-=-");
       e.setLine(1, "§c§lRecompensa!");
-      e.setLine(2, "§c§lClique Aqui");
+      e.setLine(2, "§c§lNivel Medio");
       e.setLine(3, "§4§l-=-= (!) =-=-");
     }
   }
@@ -59,7 +59,7 @@ public class Medio
       String[] lines = s.getLines();
       if ((lines.length > 0) && (lines[0].equals("§4§l-=-= (!) =-=-")) && 
         (lines.length > 1) && (lines[1].equals("§c§lRecompensa!")) && 
-        (lines.length > 2) && (lines[2].equals("§c§lClique Aqui")) && 
+        (lines.length > 2) && (lines[2].equals("§c§lNivel Medio")) && 
         (lines.length > 3) && (lines[3].equals("§4§l-=-= (!) =-=-")))
       {
         Coins.addCoins(p.getName(), 500.0D);

@@ -667,7 +667,7 @@ public static void give(Player p)
   
   ItemStack marrom = new ItemStack(Material.BROWN_MUSHROOM, 64);
   ItemMeta marrom2 = marrom.getItemMeta();
-  marrom2.setDisplayName("§8Cogumelo Marrom");
+  marrom2.setDisplayName("§6Cogumelo Marrom");
   marrom.setItemMeta(marrom2);
   
   ItemStack item = new ItemStack(Material.BOWL, 64);
@@ -675,7 +675,6 @@ public static void give(Player p)
   item2.setDisplayName("§7Pote");
   @SuppressWarnings({ "unchecked", "rawtypes" })
 	List<String> itemlore = new ArrayList();
-  itemlore.add("§4use para fazer sopas!");
   item2.setLore(itemlore);
   item.setItemMeta(item2);
   p.getInventory().setItem(14, vermelho);

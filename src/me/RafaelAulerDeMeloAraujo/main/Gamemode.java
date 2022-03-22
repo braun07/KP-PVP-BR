@@ -19,7 +19,7 @@ public class Gamemode
   {
     if (!(sender instanceof Player))
     {
-      sender.sendMessage(API.NomeServer + "§aComandos apenas no servidor!");
+      sender.sendMessage(API.NomeServer + "§fComandos apenas no servidor!");
       return true;
     }
     Player player = (Player)sender;
@@ -38,17 +38,17 @@ public class Gamemode
       if (args[0].equalsIgnoreCase("0"))
       {
         player.setGameMode(GameMode.SURVIVAL);
-        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lSOBREVIVENCIA.");
+        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lSOBREVIVENCIA§f.");
       }
       else if (args[0].equalsIgnoreCase("1"))
       {
         player.setGameMode(GameMode.CREATIVE);
-        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lCRIATIVO.");
+        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lCRIATIVO§f.");
       }
       else if (args[0].equalsIgnoreCase("2"))
       {
         player.setGameMode(GameMode.ADVENTURE);
-        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lAVENTURA.");
+        player.sendMessage(API.NomeServer + "Seu gamemode foi atualizado para §4§lAVENTURA§f.");
       }
       else
       {
@@ -69,22 +69,22 @@ public class Gamemode
       {
         target.setGameMode(GameMode.SURVIVAL);
         target.sendMessage(API.NomeServer + "Voce entrou no modo §4§lSOBREVIVENCIA.");
-        target.sendMessage(API.NomeServer + "§a" + target.getName() + " atualizou seu gamemode para survival.");
-        Bukkit.broadcast(API.NomeServer + "§a" + player.getName() + ChatColor.GRAY + " Atualizou o gamemode de §a" + target.getName() + " para 0 (Survival)", "kitpvp.staff");
+        target.sendMessage(API.NomeServer + "§c" + target.getName() + " §fatualizou seu gamemode para §4§lSOBREVIVENCIA§f.");
+        Bukkit.broadcast(API.NomeServer + "§c" + player.getName() + ChatColor.WHITE + " Atualizou o gamemode de §c" + target.getName() + " §fpara §4§lSOBREVIVENCIA.", "kitpvp.staff");
       }
       else if (args[0].equalsIgnoreCase("1"))
       {
         target.setGameMode(GameMode.CREATIVE);
         target.sendMessage(API.NomeServer + "Voce entrou no modo §4§lCRIATIVO");
-        target.sendMessage(API.NomeServer + "§a " + target.getName() + "§7 atualizou seu gamemode para criativo.");
-        Bukkit.broadcast(API.NomeServer + "§a" + player.getName() + ChatColor.GRAY + " Atualizou o gamemode de §a" + target.getName() + " para 1 (Criativo)", "kitpvp.staff");
+        target.sendMessage(API.NomeServer + "§c " + target.getName() + " §fatualizou seu gamemode para §4§lCRIATIVO§f.");
+        Bukkit.broadcast(API.NomeServer + "§c" + player.getName() + ChatColor.WHITE + " Atualizou o gamemode de §c" + target.getName() + " §fpara §4§lCRIATIVO", "kitpvp.staff");
       }
       else if (args[0].equalsIgnoreCase("2"))
       {
         target.setGameMode(GameMode.ADVENTURE);
-        target.sendMessage(API.NomeServer + "Voce entrou no modo §4§lAVENTURA");
-        target.sendMessage(API.NomeServer + "§a" + target.getName() + "§7 atualizou seu gamemode para adventure.");
-        Bukkit.broadcast(API.NomeServer + "§a" + player.getName() + ChatColor.GRAY + " Atualizou o gamemode de §a" + target.getName() + " para 2 (Aventura)", "kitpvp.staff");
+        target.sendMessage(API.NomeServer + " Voce entrou no modo §4§lAVENTURA");
+        target.sendMessage(API.NomeServer + "§c" + target.getName() + " §fatualizou seu gamemode para §4§lAVENTURA§f.");
+        Bukkit.broadcast(API.NomeServer + "§c" + player.getName() + ChatColor.WHITE + " Atualizou o gamemode de §c" + target.getName() + " §fpara §4§lAVENTURA", "kitpvp.staff");
       }
       else
       {

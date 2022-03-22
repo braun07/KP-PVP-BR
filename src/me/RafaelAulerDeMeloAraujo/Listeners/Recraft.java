@@ -63,7 +63,7 @@ package me.RafaelAulerDeMeloAraujo.Listeners;
 	    
 	    ItemStack cogum = new ItemStack(Material.BROWN_MUSHROOM, 64);
 	    ItemMeta kcogum = cogum.getItemMeta();
-	    kcogum.setDisplayName("§8Cogumelo Marrom");
+	    kcogum.setDisplayName("§6Cogumelo Marrom");
 	    cogum.setItemMeta(kcogum);
 	    
 	    Inventory inve = Bukkit.getServer().createInventory(p, 36, "§bRecraft");

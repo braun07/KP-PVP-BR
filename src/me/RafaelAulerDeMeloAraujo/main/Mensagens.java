@@ -20,7 +20,7 @@ public class Mensagens
         "§fVeja o link do nosso §9§lDiscord §fdigitando /discord", 
         "§fVocê pode comprar kits na loja de kits usando suas §eMoedas",
         "§fUtilize /youtuber para ver os requisitos das TAGs", 
-        "§fUtilize /ranks para ver as informações sobre o sistema de niveis",
+        "§fUtilize /ranks para ver as informacoes sobre o sistema de niveis",
         "§fTemos eventos diarios! Quando ocorrer um use /evento",
         "§fUtilize /regras para ver as regras do §4§lTSB§f§lPVP.", };
       
